@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",  // Set the base URL for resolving non-relative paths
+    "paths": {
+      "@/*": ["./src/*"]  // Define path aliases
+    }
+  },
+  "include": [
+    "src"  // Include all files in the src directory
+, "jest.config.js", "babel.config.js"  ],
+  "exclude": [
+    "node_modules",  // Exclude the node_modules directory
+    ".next"  // Exclude the .next directory
+  ]
+}
